@@ -67,7 +67,7 @@ label {
 .login-button {
   width: 50%; /* Largura do botão ajustada para ficar proporcional aos inputs */
   padding: 10px; /* Espaçamento interno do botão */
-  background-color: white; /* Cor de fundo branca */
+  background-color: white;
   border: 1px solid grey; /* Borda cinza ao redor do botão */
   border-radius: 20px; /* Bordas arredondadas para combinar com os inputs */
   color: salmon; /* Cor do texto do botão */

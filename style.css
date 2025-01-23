@@ -15,12 +15,6 @@ body {
   margin-bottom: 20px; /* Espaçamento abaixo da imagem */
 }
 
-body img {
-  height: 30vh; /* Define a altura da imagem como 30% da altura da tela */
-  margin: 0; /* Remove margens adicionais */
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
-}
-
 /* Container principal do login */
 .login-container {
   background-color: salmon; /* Cor de fundo para o container */
@@ -35,6 +29,7 @@ body img {
 
 /* Estilo do título */
 h2 {
+  font-size: 24px;
   margin-bottom: 20px; /* Espaçamento abaixo do título */
   color: white; /* Cor do texto */
 }
@@ -79,7 +74,11 @@ label {
 
 /* Estilo do botão ao passar o mouse */
 .login-button:hover {
-  background-color: gray; /* Muda a cor de fundo quando o botão é focado */
+  background-color: rgb(
+    200,
+    200,
+    200
+  ); /* Muda a cor de fundo quando o botão é focado */
 }
 
 /* Estilo do link "Esqueci a senha" */
